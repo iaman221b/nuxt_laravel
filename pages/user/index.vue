@@ -3,6 +3,12 @@
     <h1>User Index</h1>
     <input type="text" v-model="id">
     <button @click="loadUser">Load User</button>
+    
+    <no-ssr>
+    <v-select v-model="selected" placeholder="Select Category" >
+      <!-- :options="{'foo' , 'bar'}" -->
+    </v-select>
+    </no-ssr>
   </div>
 </template>
 
@@ -10,7 +16,8 @@
 export default {
   data(){
     return{
-      id: ''
+      id: '',
+      selected: 'hello'
     }
   },
   methods:{

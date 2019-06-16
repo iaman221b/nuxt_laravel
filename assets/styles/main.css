@@ -2,5 +2,13 @@
         border-radius: 0px;
         height: 300px;
         background-size: cover;
-        background-image: url('https://cdn.pixabay.com/photo/2019/06/02/00/46/chapel-4245437_960_720.jpg');
+        background-image: url('/mountains.jpg');
     }
+
+
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .5s;
+      }
+      .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+      }
