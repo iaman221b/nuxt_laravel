@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "nuxt": "^2.8.1",
+    "nuxt": "^2.15.8",
     "vue-scrollto": "^2.15.0",
     "vue-select": "^3.1.0"
   },
